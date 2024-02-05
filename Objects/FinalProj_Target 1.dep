@@ -1,0 +1,173 @@
+Dependencies for Project 'FinalProj', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
+F (.\FIFO.c)(0x64540104)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\fifo.o --omf_browse .\objects\fifo.crf --depend .\objects\fifo.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (FIFO.h)(0x64540104)
+I (os.h)(0x6453F9C5)
+F (.\FIFO.h)(0x64540104)()
+F (.\joystick.c)(0x6452BD36)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\joystick.o --omf_browse .\objects\joystick.crf --depend .\objects\joystick.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (joystick.h)(0x6452BD36)
+I (tm4c123gh6pm.h)(0x6452BD36)
+F (.\joystick.h)(0x6452BD36)()
+F (.\LCD.c)(0x6453F9C5)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (LCD.h)(0x645410F9)
+I (os.h)(0x6453F9C5)
+I (tm4c123gh6pm.h)(0x6452BD36)
+I (font.h)(0x6453F9C5)
+F (.\LCD.h)(0x645410F9)()
+F (.\os.c)(0x645402AD)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\os.o --omf_browse .\objects\os.crf --depend .\objects\os.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (os.h)(0x6453F9C5)
+I (PLL.h)(0x6452BD36)
+I (tm4c123gh6pm.h)(0x6452BD36)
+I (LCD.h)(0x645410F9)
+I (UART.h)(0x6452BD36)
+I (joystick.h)(0x6452BD36)
+F (.\os.h)(0x6453F9C5)()
+F (.\osasm.s)(0x6452BD36)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123--pd "__UVISION_VERSION SETA 538"--list .\listings\osasm.lst --xref -o .\objects\osasm.o --depend .\objects\osasm.d)
+F (.\PLL.c)(0x6452BD36)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\pll.o --omf_browse .\objects\pll.crf --depend .\objects\pll.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (PLL.h)(0x6452BD36)
+I (tm4c123gh6pm.h)(0x6452BD36)
+F (.\PLL.h)(0x6452BD36)()
+F (.\PORTE.c)(0x6452BD36)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\porte.o --omf_browse .\objects\porte.crf --depend .\objects\porte.d)
+I (PORTE.h)(0x6452BD36)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (tm4c123gh6pm.h)(0x6452BD36)
+F (.\PORTE.h)(0x6452BD36)()
+F (.\startup.s)(0x6452BD36)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123--pd "__UVISION_VERSION SETA 538"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\tm4c123gh6pm.h)(0x6452BD36)()
+F (.\UART.c)(0x6452BD36)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (tm4c123gh6pm.h)(0x6452BD36)
+I (UART_FIFO.h)(0x6452BD36)
+I (UART.h)(0x6452BD36)
+F (.\UART.h)(0x6452BD36)()
+F (.\UART_FIFO.c)(0x6452BD36)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\uart_fifo.o --omf_browse .\objects\uart_fifo.crf --depend .\objects\uart_fifo.d)
+I (os.h)(0x6453F9C5)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (UART_FIFO.h)(0x6452BD36)
+F (.\UART_FIFO.h)(0x6452BD36)()
+F (.\I2C1.c)(0x6452BD36)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\i2c1.o --omf_browse .\objects\i2c1.crf --depend .\objects\i2c1.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (tm4c123gh6pm.h)(0x6452BD36)
+F (.\I2C1.h)(0x6452BD36)()
+F (.\PWM.c)(0x64586676)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (tm4c123gh6pm.h)(0x6452BD36)
+F (.\PWM.h)(0x6454B2AE)()
+F (.\Cube.c)(0x64549115)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\cube.o --omf_browse .\objects\cube.crf --depend .\objects\cube.d)
+I (Cube.h)(0x6454117E)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (os.h)(0x6453F9C5)
+I (LCD.h)(0x645410F9)
+I (RandomNumberGenerator.h)(0x645410F9)
+I (ScoreLife.h)(0x64540104)
+I (UART.h)(0x6452BD36)
+I (FIFO.h)(0x64540104)
+I (pages.h)(0x6454269E)
+I (buzzer.h)(0x64541AF4)
+F (.\Cube.h)(0x6454117E)()
+F (.\RandomNumberGenerator.c)(0x645410F9)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\randomnumbergenerator.o --omf_browse .\objects\randomnumbergenerator.crf --depend .\objects\randomnumbergenerator.d)
+I (RandomNumberGenerator.h)(0x645410F9)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+F (.\RandomNumberGenerator.h)(0x645410F9)()
+F (.\buzzer.c)(0x6454B384)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\buzzer.o --omf_browse .\objects\buzzer.crf --depend .\objects\buzzer.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8EF392)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (PWM.h)(0x6454B2AE)
+I (os.h)(0x6453F9C5)
+I (buzzer.h)(0x64541AF4)
+I (pages.h)(0x6454269E)
+F (.\buzzer.h)(0x64541AF4)()
+F (.\numFIFO.c)(0x6452BD36)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\numfifo.o --omf_browse .\objects\numfifo.crf --depend .\objects\numfifo.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (numFIFO.h)(0x6452BD36)
+I (os.h)(0x6453F9C5)
+F (.\numFIFO.h)(0x6452BD36)()
+F (.\image.h)(0x6454241C)()
+F (.\pages.c)(0x649226EE)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\pages.o --omf_browse .\objects\pages.crf --depend .\objects\pages.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (pages.h)(0x6454269E)
+I (LCD.h)(0x645410F9)
+I (os.h)(0x6453F9C5)
+I (image.h)(0x6454241C)
+I (FIFO.h)(0x64540104)
+I (numFIFO.h)(0x6452BD36)
+I (buzzer.h)(0x64541AF4)
+I (screen.h)(0x649226D5)
+I (screenStack.h)(0x6491D7B5)
+I (display.h)(0x6453F9C5)
+I (RandomNumberGenerator.h)(0x645410F9)
+I (Cube.h)(0x6454117E)
+I (ScoreLife.h)(0x64540104)
+I (UART.h)(0x6452BD36)
+I (PVZGame.h)(0x64922661)
+F (.\pages.h)(0x6454269E)()
+F (.\screen.c)(0x64922672)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\screen.o --omf_browse .\objects\screen.crf --depend .\objects\screen.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (LCD.h)(0x645410F9)
+I (os.h)(0x6453F9C5)
+I (tm4c123gh6pm.h)(0x6452BD36)
+I (screen.h)(0x649226D5)
+I (screenStack.h)(0x6491D7B5)
+I (font.h)(0x6453F9C5)
+F (.\screen.h)(0x649226D5)()
+F (.\Main.c)(0x6491D7E2)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (OS.h)(0x6453F9C5)
+I (tm4c123gh6pm.h)(0x6452BD36)
+I (LCD.h)(0x645410F9)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8EF392)
+I (UART.h)(0x6452BD36)
+I (FIFO.h)(0x64540104)
+I (numFIFO.h)(0x6452BD36)
+I (joystick.h)(0x6452BD36)
+I (PORTE.h)(0x6452BD36)
+I (I2C1.h)(0x6452BD36)
+I (RandomNumberGenerator.h)(0x645410F9)
+I (Cube.h)(0x6454117E)
+I (ScoreLife.h)(0x64540104)
+I (PWM.h)(0x6454B2AE)
+I (buzzer.h)(0x64541AF4)
+I (pages.h)(0x6454269E)
+I (screenStack.h)(0x6491D7B5)
+I (screen.h)(0x649226D5)
+I (display.h)(0x6453F9C5)
+I (PVZGame.h)(0x64922661)
+F (.\display.c)(0x64922692)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\display.o --omf_browse .\objects\display.crf --depend .\objects\display.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (os.h)(0x6453F9C5)
+I (tm4c123gh6pm.h)(0x6452BD36)
+I (LCD.h)(0x645410F9)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8EF392)
+I (pages.h)(0x6454269E)
+I (screenStack.h)(0x6491D7B5)
+I (screen.h)(0x649226D5)
+F (.\display.h)(0x6453F9C5)()
+F (.\PVZGame.c)(0x6492265D)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\pvzgame.o --omf_browse .\objects\pvzgame.crf --depend .\objects\pvzgame.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (pages.h)(0x6454269E)
+I (PVZGame.h)(0x64922661)
+I (screenStack.h)(0x6491D7B5)
+I (os.h)(0x6453F9C5)
+I (RandomNumberGenerator.h)(0x645410F9)
+I (buzzer.h)(0x64541AF4)
+I (screen.h)(0x649226D5)
+I (UART.h)(0x6452BD36)
+F (.\PVZGame.h)(0x64922661)()
+F (.\ScoreLife.c)(0x64540104)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\scorelife.o --omf_browse .\objects\scorelife.crf --depend .\objects\scorelife.d)
+I (ScoreLife.h)(0x64540104)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (os.h)(0x6453F9C5)
+I (LCD.h)(0x645410F9)
+F (.\ScoreLife.h)(0x64540104)()
+F (.\screenStack.c)(0x6491D7AD)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Keil_v538a\ARM\RV31\INC-IC:\Keil_v538a\ARM\CMSIS\Include-IC:\Keil_v538a\ARM\INC\TI\TM4C123-D__UVISION_VERSION="538" -DTM4C123GH6PM-o .\objects\screenstack.o --omf_browse .\objects\screenstack.crf --depend .\objects\screenstack.d)
+I (C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8EF392)
+I (LCD.h)(0x645410F9)
+I (os.h)(0x6453F9C5)
+I (tm4c123gh6pm.h)(0x6452BD36)
+I (screenStack.h)(0x6491D7B5)
+F (.\screenStack.h)(0x6491D7B5)()

@@ -1,0 +1,139 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ÂµVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Yue Zhu, University of Virginia, LIC=EXJT4-FRR66-BS8YX-HX75C-69JMR-3FGX7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\BaiduSyncdisk\UVA\2023Spring\homework\Adv Embedded Sys\repo\final-project-beta\FinalProj.uvproj
+Project File Date:  06/20/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\Bin'
+Build target 'Target 1'
+compiling pages.c...
+pages.c(84): warning:  #167-D: argument of type "const unsigned char (*)[8192]" is incompatible with parameter of type "const uint16_t *"
+  	BSP_LCD_DrawBitmap(31, 95, &gImage_brain, 64, 64);
+pages.c(86): warning:  #167-D: argument of type "const unsigned char (*)[8192]" is incompatible with parameter of type "const uint16_t *"
+  	BSP_LCD_DrawBitmap(31, 95, &gImage_brain, 64, 64);
+pages.c(116): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, const uint16_t *, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func0.LCD_operation = &BSP_LCD_DrawBitmap;
+pages.c(119): warning:  #513-D: a value of type "const unsigned char (*)[9600]" cannot be assigned to an entity of type "uint16_t *"
+  		Func0.image = &gImage_grass;
+pages.c(127): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, const uint16_t *, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func1.LCD_operation = &Bitmap_DrawBitmapTP;
+pages.c(130): warning:  #513-D: a value of type "const unsigned char (*)[1000]" cannot be assigned to an entity of type "uint16_t *"
+  		Func1.image = &gImage_sunflower2025;
+pages.c(138): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, const uint16_t *, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func2.LCD_operation = &Bitmap_DrawBitmapTP;
+pages.c(141): warning:  #513-D: a value of type "const unsigned char (*)[1000]" cannot be assigned to an entity of type "uint16_t *"
+  		Func2.image = &gImage_shooter2025;
+pages.c(200): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, int16_t, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func4.LCD_operation = &Bitmap_DrawBox;
+pages.c(213): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, int16_t, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func5.LCD_operation = &Bitmap_DrawBox;
+pages.c(226): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, int16_t, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func6.LCD_operation = &Bitmap_DrawBox;
+pages.c(240): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func7.LCD_operation = &BSP_LCD_DrawCrosshair;
+pages.c(252): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func8.LCD_operation = &BSP_LCD_MessageUDec3;
+pages.c(295): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, const uint16_t *, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func1.LCD_operation = &BSP_LCD_DrawBitmap;
+pages.c(298): warning:  #513-D: a value of type "const unsigned char (*)[8192]" cannot be assigned to an entity of type "uint16_t *"
+  		Func1.image = &gImage_GameCube;
+pages.c(312): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func2.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(323): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func3.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(339): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func4.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(344): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func4.LCD_operation = &BSP_LCD_DrawString;
+pages.c(357): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func5.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(362): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func5.LCD_operation = &BSP_LCD_DrawString;
+pages.c(373): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func6.LCD_operation = &BSP_LCD_DrawCrosshair;
+pages.c(385): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func7.LCD_operation = &BSP_LCD_Message;
+pages.c(398): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func8.LCD_operation = &BSP_LCD_Message;
+pages.c(452): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func1.LCD_operation = &BSP_LCD_MessageUDec3;
+pages.c(464): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func2.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(475): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func3.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(486): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func4.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(497): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func11.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(514): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func5.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(518): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func5.LCD_operation = &BSP_LCD_DrawString;
+pages.c(530): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func10.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(534): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func10.LCD_operation = &BSP_LCD_DrawString;
+pages.c(546): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func6.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(551): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func6.LCD_operation = &BSP_LCD_DrawString;
+pages.c(562): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func7.LCD_operation = &BSP_LCD_DrawCrosshair;
+pages.c(574): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func8.LCD_operation = &BSP_LCD_Message;
+pages.c(587): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func9.LCD_operation = &BSP_LCD_Message;
+pages.c(743): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func1.LCD_operation = &BSP_LCD_MessageUDec3;
+pages.c(757): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func2.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(768): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func3.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(779): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func4.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(795): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func5.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(802): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func5.LCD_operation = &BSP_LCD_DrawString;
+pages.c(815): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func6.LCD_operation = &BSP_LCD_DrawStringHighlight;
+pages.c(820): warning:  #513-D: a value of type "uint32_t (*)(int16_t, int16_t, char *, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func6.LCD_operation = &BSP_LCD_DrawString;
+pages.c(831): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func8.LCD_operation = &BSP_LCD_Message;
+pages.c(844): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func9.LCD_operation = &BSP_LCD_Message;
+pages.c(857): warning:  #513-D: a value of type "void (*)(int16_t, int16_t, int16_t)" cannot be assigned to an entity of type "void (*)(int)"
+  		Func7.LCD_operation = &BSP_LCD_DrawCrosshair;
+pages.c(879): warning:  #513-D: a value of type "void (*)(int, int, int, char *, unsigned int)" cannot be assigned to an entity of type "void (*)(int)"
+  			Func10.LCD_operation = &BSP_LCD_MessageUDec3;
+pages.c: 50 warnings, 0 errors
+linking...
+Program Size: Code=27192 RO-data=32728 RW-data=384 ZI-data=30192  
+FromELF: creating hex file...
+".\Objects\FinalProj.axf" - 0 Error(s), 50 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

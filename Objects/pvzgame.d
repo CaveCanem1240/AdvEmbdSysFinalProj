@@ -1,0 +1,10 @@
+.\objects\pvzgame.o: PVZGame.c
+.\objects\pvzgame.o: C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\pvzgame.o: pages.h
+.\objects\pvzgame.o: PVZGame.h
+.\objects\pvzgame.o: screenStack.h
+.\objects\pvzgame.o: os.h
+.\objects\pvzgame.o: RandomNumberGenerator.h
+.\objects\pvzgame.o: buzzer.h
+.\objects\pvzgame.o: screen.h
+.\objects\pvzgame.o: UART.h

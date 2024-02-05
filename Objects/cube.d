@@ -1,0 +1,13 @@
+.\objects\cube.o: Cube.c
+.\objects\cube.o: Cube.h
+.\objects\cube.o: C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\cube.o: os.h
+.\objects\cube.o: LCD.h
+.\objects\cube.o: RandomNumberGenerator.h
+.\objects\cube.o: ScoreLife.h
+.\objects\cube.o: os.h
+.\objects\cube.o: LCD.h
+.\objects\cube.o: UART.h
+.\objects\cube.o: FIFO.h
+.\objects\cube.o: pages.h
+.\objects\cube.o: buzzer.h

@@ -1,0 +1,9 @@
+.\objects\display.o: display.c
+.\objects\display.o: C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\display.o: os.h
+.\objects\display.o: tm4c123gh6pm.h
+.\objects\display.o: LCD.h
+.\objects\display.o: C:\Keil_v538a\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+.\objects\display.o: pages.h
+.\objects\display.o: screenStack.h
+.\objects\display.o: screen.h
